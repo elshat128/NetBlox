@@ -1,0 +1,3 @@
+sh cdp nei detail
+sh ip int bri
+
