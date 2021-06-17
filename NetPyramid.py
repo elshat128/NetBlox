@@ -220,7 +220,7 @@ def save_configH(ips):
         print("ERROR: Authentication failed for " + ips)
 #***********************************************************************************************************************************************************
 
-layout = [[sg.Image(r'C:\Users\nzt39f\PycharmProjects\elshat_project\a647f04bbfd9420f991d51d0c18ed987.png')],
+layout = [[sg.Image(r'*image_full_path*.png')],
 #    [sg.Menu(menu_def, tearoff=True)],
     [sg.Text('Network Automation', size=(30, 1), justification='center', text_color='White', font=("Helvetica", 25), relief=sg.RELIEF_RIDGE)],
           [sg.Text(' ' * 70, )], [sg.Text("Select Vendor/Platform")], [sg.Combo(['Cisco_IOS', 'Hirschmann_HiOS'], key='vendor')],
